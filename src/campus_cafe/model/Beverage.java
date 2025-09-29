@@ -12,7 +12,7 @@ public class Beverage extends Product {
 	
 	public Beverage(String id, String name, BigDecimal basePrice) {
 		super(id, name, basePrice);
-		this.size = Size.MEDIUM; //sensible size (should prompt user)
+		this.size = Size.MEDIUM;
 	}
 	
 	 public Size getSize() {
